@@ -1,0 +1,18 @@
+Get-Item <ruta>
+Get-Content <ruta al archivo con su extensión>
+Copy-Item 
+Remove-Item
+Get-Service
+Start-Service <nombre del servicio>
+Stop-Service <nombre del servicio>
+Suspend-Service <nombre del servicio>
+Resume-Service <nombre del servicio>
+Restart-Service <nombre del servicio>
+Get-Process
+Start-Process <nombre del proceso>
+Stop-Process <nombre del proceso>
+Wait-Service <nombre del proceso>
+dir –r
+Remove-Item C:tobedeleted –Recurse
+cd hkcu:
+Get-WmiObject -Class Win32_ComputerSystem
